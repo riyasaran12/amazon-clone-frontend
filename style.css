@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+/**top panel**/
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    background-color: #0F1111;
+    align-items: center;
+}
+
+#nav-amazon-logo{
+    padding-left: 6.6px;
+    padding-right: 6.6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: flex;
+    height: 40px;
+    width: 111px;
+    align-items: center;
+}
+
+#nav-logo{
+    height: 40px;
+    width: 113px;
+    background-image: url("amalog.png");
+    background-size: contain;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+.deliver-1{
+    padding-left: 6.6px;
+    padding-right: 6.6px;
+    padding-top: 6.6px;
+    padding-bottom: 6.6px;
+    color: white;
+    /* width: 90.64px; */
+    /* height: 50px; */
+    align-items: center;
+}
+.icon{
+    display: flex;
+}
+
+.first{
+    margin-left: 12.64px;
+    font-size: small;
+}
+
+.second {
+    margin-left: 2px;
+    font: medium;
+    font-weight: bolder;
+}
+
+.search-bar{
+    width: 625px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+select{
+    height: 40px;
+    width: 50px;
+    background-color: #D3D0CC;
+    border-radius: 4px 0px 0px 4px;
+    text-align: center;
+
+}
+
+input{
+    font-weight: 50px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.search-icon{
+    background-color: rgb(220, 146, 7);
+    width: 45px;
+    height: 40px;
+    border-radius: 0px 4px 4px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+
+.nav-forth{
+    padding-left: 6.6px;
+    padding-right: 6.6px;
+    padding-top: 6.6px;
+    padding-bottom: 6.6px;
+    color: white;
+}
+
+.nav-first{
+    font-size: 0.85rem;
+}
+
+.nav-second{
+    font-weight: 10px;
+}
+
+.nav-fifth{
+    color: white;
+    padding-top: 6.6px;
+    padding-bottom: 6.6px;
+    padding-left: 6.6px;
+    padding-right: 6.6px;
+}
+
+.cart{
+    height: 40px;
+    width: 84px;
+    color: white;
+    display: flex;  
+    align-items: last baseline;
+    justify-content: center; 
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6.6px;
+    padding-right: 6.6px;
+}
+
+.icon1{
+    font-size: 28px;
+}
+
+.border-yellow:hover{
+    border: 2px rgb(206, 142, 4) solid;
+    border-radius: 4px 4px 4px 4px;
+}
+
+
+/**second panel**/
+.second-panel{
+    display: flex;
+    height: 39px;
+    background-color: #1b242f;
+    padding: 0px 0px 0px 11px;
+}
+
+.menu{
+    display: flex;
+    width: 60px;
+    height: 39px;
+    color: white;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+ }
+
+.menu i{
+    display: inline; 
+    font-size: 25px;
+}
+
+.menu span{
+    padding: 0px 0px 0px 5px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+/**DOUBT-->isko flex krkre todays deals kaise shi hua dont know**/
+.second-second{
+    display: flex;
+    /* height: 39px; */
+}
+
+.todays-deals{
+    display: flex;
+    width: 103px;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    align-items: center;
+    font-weight: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+.customer-service{
+    display: flex;
+    width: 130px;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    align-items: center;
+    font-weight: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.registry{
+    display: flex;
+    width: 70px;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    align-items: center;
+    font-weight: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.giftcard{
+    display: flex;
+    width: 80px;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    align-items: center;
+    font-weight: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.sell{
+    display: flex;
+    width: 40px;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    align-items: center;
+    font-weight: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/**main**/
+
+.hero{
+    height: 500px;
+    background-image: url(schhol.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.note{
+    display: flex;
+    /* width: 1060px; */
+    height: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px 14px 14px 10px;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+
+.shop{
+    /* width: 1500px; */
+    height: 1340px;
+    padding-top: 5px;
+    background-color: #2e2f30;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.one{
+    display: flex;
+    /* width: 2000px; */
+    height: 380px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.two2{
+    display: flex;
+    /* width: 1080px; */
+    height: 380px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.three{
+    display: flex;
+    /* width: 1080px; */
+    height: 380px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.whiteone{
+    height: 400px;
+    width: 480px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.whiteone p{
+    font-weight: bolder;
+    font-size: larger;
+}
+.first1{
+    background-image: url(mine.jpeg);
+    background-size: cover;
+    display: flex;
+    width: 450px;
+    height: 350px;
+    flex-direction: row;
+    background-color: aqua;
+}
+
+.second2{
+    background-image: url(speaker.jpg);
+    background-size: cover;
+    width: 450px;
+    height: 350px;
+    background-color: blue;
+}
+
+.third{
+    background-image: url(pots.jpg);
+background-size: cover;
+    width: 450px;
+    height: 350px;
+    background-color: red;
+}
+
+.fourth{
+    background-image: url(table.jpg);
+background-size: cover;
+    width: 450px;
+    height: 350px;
+    background-color: green;
+}
+
+.fifth{
+    background-image: url(phone.jpg);
+background-size: cover;
+   width: 450px;
+   height: 350px;
+    background-color: yellow;
+}
+
+.sixth{
+    background-image: url(candle.jpg);
+background-size: cover;
+    width: 450px;
+    height: 350px;
+    background-color: pink;
+}
+
+.seventh{
+    background-image: url(jug.jpg);
+background-size: cover;
+    width: 450px;
+    height: 350px;
+    background-color: lightgreen;
+}
+
+
+.eighth{
+    background-image: url(heat.jpg);
+background-size: cover;
+    width: 450px;
+    height: 350px;
+    background-color: aqua;
+}
+
+.ninth{
+    background-image: url(bag.jpg);
+background-size: cover;
+    width: 450px;
+    height: 350px;
+    background-color: purple;
+}
+
+
+/**footer**/
+
+.footer{
+    width: 1100px; 
+     height: 980px;
+    display: flex;
+    flex-direction: column;
+}
+
+.back_top{
+    height: 60px;
+    /* width: 1100px; */
+    background-color: #1b242f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.options{
+    background-color: #273341;
+    /* width: 2200px; */
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px 0px 20px;
+    border-bottom: 1px whitesmoke solid;
+}
+
+.helper{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    color: #D3D0CC;
+}
+
+.head1{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.a p{
+    margin-top: 5px;
+}
+
+.c p {
+    margin-top: 5px;
+}
+
+.e p{
+    margin-top: 5px;
+}
+
+.g p{
+    margin-top: 5px;
+}
+
+.second_footer{
+    height: 50px;
+    background-color: rgb(4, 5, 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth_footer {
+    padding-top: 20px;
+    background-color: #0F1111;
+    color: white;
+    margin-right: 25px;
+    height: 80px;
+}
+.lastone{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.lastone p{
+    margin-right: 25px;
+}
+
+.lastwo{
+    display: flex;
+    justify-content: center;
+}
